@@ -1,0 +1,15 @@
+{
+  "name": "elastic-health",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "install-es": "./scripts/install_es.sh",
+    "start": "node index.js",
+    "start-es": "./elasticsearch/elasticsearch-7.0.1/bin/elasticsearch",
+    "start-kibana": "./elasticsearch/kibana-7.0.1-darwin-x86_64/bin/kibana"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
